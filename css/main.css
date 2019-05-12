@@ -50,9 +50,7 @@ body {
 
 /* styling the  article-billboard class */
 
-
-
-.section-hero {
+.article-hero {
   height: 87vh;
   margin: 0 auto;
   margin-top: -1rem;
@@ -62,10 +60,89 @@ body {
   background-size: 1440px 1315px;
 }
 
-.section-hero-link {
+
+.article-section {
+  position: relative;
+  top: 30%;
+    z-index: 900;
+    width: 100%;
+    /* height: auto; */
+    color: white;
+    text-align: center;
+    /* border: 1px solid black; */
 
 }
 
-.section-hero-header {
+.section-link {
 
 }
+
+.section-header {
+  /* position: absolute;
+  top: 50%;
+  right: 0;
+  left: 0;
+  border: 1px solid black;
+  margin-top: -170px;
+  padding: 50px 0; */
+  /* background: url(/img/your_verse_title_small.png) 0 50% no-repeat; */
+  /* background-size: 25px 335px;
+  font-size: 3rem;
+  line-height: 2; */
+  position: relative;
+  top: 50%;
+  right: 0;
+  left: 0;
+
+}
+
+.section-headline {
+  /* display: inline-block;
+  height: 1vh; */
+  /* border: 1px solid red; */
+  display: inline-block;
+  z-index: 0;
+
+  /* height: 6vh; */
+}
+
+.img-one {
+  display: inline-block;
+}
+
+
+.section-sub-headline {
+  display: inline-block;
+  position: absolute;
+  top: 84.7%;
+  right: 0;
+  left: 14%;
+  z-index: 100;
+  /* border: 1px solid red; */
+  width: 72%;
+}
+
+.img-two {
+  display: inline-block;
+  width: 100%;
+}
+
+.article-cta {
+  position: absolute;
+  top: 185%;
+  right: 0;
+  left: 0;
+  /* border: 1px solid red; */
+  text-align: center;
+  /* height: 5px; */
+  /* z-index: 100; */
+}
+
+.img-three {
+  display: inline-block;
+  /* height: 5vh; */
+  /* width: 100%; */
+}
+
+
+
