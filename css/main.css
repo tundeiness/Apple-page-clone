@@ -4,9 +4,11 @@ body {
    /*margin: 0 auto; */
 }
 
-.main {
+.container {
   /* position: relative;*/
   /* overflow-x: hidden; */
+  border: 1px solid green;
+
 }
 
 .navigation {
@@ -108,54 +110,6 @@ color: white;
   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAkCAQAAADifZiHAAAAJ0lEQ…zE8JeJ4R8q%2Bo%2BKCIH%2FjEA1TAyMSIgJRkIQM9BYAGa0Dj%2FXpUiAAAAAAElFTkSuQmCC) repeat-x 0 0, url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAABCAQAAACvIOyMAAAAE0lEQVQIW2P8z8jAwMAIh0wICAAa0gETv9XXOgAAAABJRU5ErkJggg%3D%3D) repeat-y 100% 0, url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAABCAQAAACvIOyMAAAAEklEQVQIW2P8L8TwDwn%2Bh0MGAKnjDAIoAAlcAAAAAElFTkSuQmCC) repeat-y 0 0, rgba(0, 0, 0, .4);
 }
 
-.search {
-position: absolute;
-top: 45.5%;
-right: -1%;
-width: 106px;
-
-
-background: none;
-border-width: 0 2px 0 1px;
-z-index: 0;
-
-background: none;
-border-width: 0 2px 0 1px;
-  -o-transition: width 0.3s ease-in-out;
-  -ms-transition: width 0.3s ease-in-out;
-  -moz-transition: width 0.3s ease-in-out;
-  -webkit-transition: width 0.3s ease-in-out;
-  transform: translate(-30%, -50%);
-  /* width: 30%; */
-  height: 25px;
-  border: 1px solid red;
-  color: #fff;
-  -webkit-border-radius: 12px;
-  -moz-border-radius: 12px;
-  border-radius: 12px;
-  /* border-bottom-color: #808080;
-  border-left-color: #808080;
-  border-right-color: #808080;
-  border-top-color: rgb(0, 0, 0);
-  border-top-color: rgba(0, 0, 0, .45); */
-  padding: 8px 20px;
-  background: none;
-  /* transition: all .1s; */
-}
-
-.form-search {
-  /* position: relative;
-  padding: 0;
-  width: 100%;
-  margin-top: -6px; */
-  /* margin-left: -17px; */
-  /* height: auto; */
-  /* background-image: none;
-  background-color: rgba(255,255,255,.1);
-  border-radius: 12px;
-  box-shadow: rgba(0, 0, 0, 0.6) 0 2px 1px inset, rgba(255, 255, 255, 0.2) 0 1px 0; */
-}
-
 .navigation-search {
   width: 100%;
   /* margin-left: -20px; */
@@ -176,6 +130,19 @@ border-width: 0 2px 0 1px;
   /* left: 91px; */
   color: white;
   z-index: 9000;
+}
+
+/* styling the section-hero */
+
+.section-hero {
+  border: 1px solid red;
+  height: 87vh;
+  position: relative;
+  right: auto;
+  left: 0;
+  background: #5e5e5e url(/img/hero_2x.jpg) 50% 102% no-repeat;
+  background-size: 1300px 1315px;
+
 }
 
 
