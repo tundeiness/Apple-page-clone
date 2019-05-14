@@ -138,12 +138,54 @@ color: white;
   border: 1px solid red;
   height: 87vh;
   position: relative;
-  right: auto;
-  left: 0;
   background: #5e5e5e url(/img/hero_2x.jpg) 50% 102% no-repeat;
   background-size: 1300px 1315px;
 
 }
+
+.section-header {
+  /* border: 1px solid red; */
+  margin-top: -8rem;
+  text-align: center;
+  position: relative;
+  z-index: 0;
+}
+
+.section-headline {
+  /* font-size: 24px;
+  line-height: 36px; */
+  /* display: inline-block;
+  z-index: 0; */
+}
+
+.section-header-img {
+
+}
+
+.img-one {
+  /* display: inline-block; */
+}
+
+.section-sub-headline {
+   /* border: 1px solid red; */
+   width: 72%;
+   position: relative;
+   left: 13.49%;
+   margin-top: -1rem;
+   z-index: 100;
+}
+
+.section-cta {
+  /* border: 1px solid red; */
+  text-align: center;
+  margin-top: 19.2rem;
+  /* width: 72%; */
+
+}
+
+
+
+
 
 
 
@@ -195,49 +237,23 @@ color: white;
 
 }
 
-.section-headline {
-  /* display: inline-block;
-  height: 1vh; */
-  /* border: 1px solid red; */
-  display: inline-block;
-  z-index: 0;
 
-  /* height: 6vh; */
-}
 
 .img-one {
-  display: inline-block;
+  /* display: inline-block; */
   /* margin-left: auto;
   margin-right: auto; */
 }
 
 
-.section-sub-headline {
-  display: inline-block;
-  position: absolute;
-  top: 84.7%;
-  right: 0;
-  left: 14%;
-  z-index: 100;
-  /* border: 1px solid red; */
-  width: 72%;
-}
+
 
 .img-two {
   display: inline-block;
   width: 100%;
 }
 
-.article-cta {
-  position: absolute;
-  top: 185%;
-  right: 0;
-  left: 0;
-  /* border: 1px solid red; */
-  text-align: center;
-  /* height: 5px; */
-  /* z-index: 100; */
-}
+
 
 .img-three {
   display: inline-block;
