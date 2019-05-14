@@ -30,8 +30,6 @@ body {
   top: 5.2rem;
   left: 16.5%;
   margin: 0 auto;
-  display: block;
-  /* width: 980px; */
   z-index: 900;
   border-radius: 4px;
   box-shadow: rgba(0,0,0,0.3) 0 1px 2px;
@@ -45,8 +43,8 @@ body {
 .navigation-link:link,
 .navigation-link:visited{
 
-  text-decoration: none;
-  color: white;
+text-decoration: none;
+color: white;
 
 
 }
@@ -290,15 +288,15 @@ border-width: 0 2px 0 1px;
   overflow: hidden;
   width: 100%;
   height: 200px; */
-  border: 1px solid black;
+  /* border: 1px solid black; */
   width: 100%;
   height: 205px;
 }
 
 .promos-ul {
-  text-align: center;
-  width: 364px;
-  display: inline-block;
+  /* text-align: center;
+  width: 364px; */
+  /* display: inline-block; */
   /* position: relative;
   z-index: 1;
   overflow: hidden;
@@ -312,7 +310,9 @@ border-width: 0 2px 0 1px;
 
 .promos-list {
   display: inline-block;
-  width: 25%;
+  width:24%;
+  overflow: hidden;
+  /* width: 55%; */
   /* position: relative;
     z-index: 1;
     float: left;
@@ -321,6 +321,11 @@ border-width: 0 2px 0 1px;
     width: 25%;
     height: 200px;
     display: inline-block; */
+}
+
+.promos-list:not(:last-child) {
+  margin-top: 2px;
+  margin-left: 13.8px;
 }
 
 
@@ -336,6 +341,10 @@ border-width: 0 2px 0 1px;
   display: inline-block;
   overflow: hidden;
   cursor: pointer; */
+}
+
+.phone5s {
+  /* width: 100%; */
 }
 
 
