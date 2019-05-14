@@ -5,7 +5,7 @@ This is a clone of one of the most design-forward companies in the world. It’s
 ## Authors
 This projects was executed by **Tunde Oretade**.
 
-Meet Tunde here on  [Github](http://www.google.com) and,  here on [LinkedIn](http://www.google.com)
+Meet Tunde here on  [Github](https://github.com/tundeiness/) and,  here on [LinkedIn](https://www.linkedin.com/in/tunde-oretade/)
 
 ## Technologies used.
 HTML and, CSS
