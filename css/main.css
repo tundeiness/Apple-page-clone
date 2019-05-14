@@ -253,7 +253,7 @@ overflow: hidden;
 /* styling the footer */
 
 .footer {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   min-width: 980px;
   width: 100%;
   height: 90px;
@@ -266,17 +266,139 @@ overflow: hidden;
 }
 
 .footer-wrapper {
-  border: 1px solid grey;
+  /* border: 1px solid grey; */
   margin: 0 auto;
   width: 980px;
   padding: 1em 0 2.6em;
+  overflow: hidden;
 }
 
-/* float: left;
-clear: both;
-width: 49%;
-padding-top: 1.5em;
-text-align: left; */
+.footer-wrapper-left-detail {
+  float: left;
+  /* clear: both; */
+  width: 49%;
+  padding-top: 1.5em;
+  text-align: left;
+
+}
+
+.left-detail-link {
+text-decoration: none;
+color: #08c;
+}
+
+.left-detail-link:hover {
+  text-decoration: underline;
+  color:color: #08c;
+  cursor: pointer;
+  }
+
+  .footer-wrapper-right-links {
+    float: right;
+    width: 51%;
+    padding-top: .2rem;
+    text-align: right;
+    /* display: inline; */
+  }
+
+  .right-list {
+    display: inline-block;
+    /* float: none; */
+    margin-left: .1rem;
+    padding-left: .1rem;
+    border-left: 1px solid #ccc;
+
+  }
+
+  .right-list:first-child {
+    border: none;
+  }
+
+  .right-list-link {
+    text-decoration: none;
+    color: #08c;
+  }
+
+  .right-list-link:hover {
+    text-decoration: underline;
+  }
+
+
+
+  .first-item {
+    /* margin-left: 0;
+    padding-left: 0;
+    border-left: none; */
+  }
+
+  .worldwide {
+    /* width: 16px;
+    height: 12px; */
+    /* margin-top: 10rem; */
+    /* position: relative;
+    z-index: 1;
+    width: 16px;
+    height: 12px;
+     zoom: 1; */
+  }
+
+  .copyright-details {
+    /* border: 1px solid brown; */
+    /* float: left; */
+    /* clear: both; */
+    width: 50.7%;
+    margin-top: -1rem;
+    /* padding-top: .1rem; */
+    text-align: center;
+    /* border-left: 1px solid #ccc; */
+  }
+
+  .copyright-details:last-child {
+    /* border-left: 1px solid black; */
+  }
+
+  .copyright, .terms  {
+    display: inline;
+    margin: 0;
+  }
+
+  /* .terms {
+    display: inline;
+    margin: 0;
+  } */
+
+  .terms-details {
+    margin-left: 0;
+    padding-left: 0;
+    display: inline-block;
+  }
+
+  .terms-details:last-child {
+    border-left: 1px solid #ccc;
+    padding-left: .4rem;
+  }
+
+  .terms-details:first-child {
+    padding-right: .3rem;
+  }
+
+
+  .term-link {
+    /* display: inline-block; */
+    font-size: 10px;
+    color: #08c;
+    text-decoration: none;
+  }
+
+  .term-link:hover {
+    text-decoration: underline;
+  }
+
+
+
+
+
+
 
 
 
