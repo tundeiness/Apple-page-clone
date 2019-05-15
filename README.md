@@ -2,7 +2,7 @@
 
 This is a clone of one of the most design-forward companies in the world. It’s not a very complex site but it uses background photos well and the navbar at the top contains a gradient that you should be able to mimic.
 
-## Authors
+## Author
 This projects was executed by **Tunde Oretade**.
 
 You can find me here on  [Github](https://github.com/tundeiness/) and,  here on [LinkedIn](https://www.linkedin.com/in/tunde-oretade/)
