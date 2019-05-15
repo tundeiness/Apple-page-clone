@@ -5,7 +5,7 @@ This is a clone of one of the most design-forward companies in the world. It’s
 ## Authors
 This projects was executed by **Tunde Oretade**.
 
-Meet Tunde here on  [Github](https://github.com/tundeiness/) and,  here on [LinkedIn](https://www.linkedin.com/in/tunde-oretade/)
+You can find me here on  [Github](https://github.com/tundeiness/) and,  here on [LinkedIn](https://www.linkedin.com/in/tunde-oretade/)
 
 ## Technologies used.
 HTML and, CSS
@@ -20,5 +20,5 @@ Open your git bash and cd to the location you'd like to put your files the run t
 
 
 Here is the link to the live version of this project
-[here](https://rawcdn.githack.com/tundeiness/New-York-Times-clone/06d2fa07139db369b8c308625cd8300b7862e567/index.html)
+[here](https://rawcdn.githack.com/tundeiness/Apple-page-clone/7df656a4e5d841dd744185cfd6e7a482ed3f2701/index.html)
 
