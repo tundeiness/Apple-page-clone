@@ -310,7 +310,7 @@ color: #08c;
     position: relative;
     float: right;
     width: 51%;
-    padding-top: .2rem;
+    padding-top: .5rem;
     text-align: right;
   }
 
@@ -319,6 +319,7 @@ color: #08c;
     margin-left: .2rem ;
     padding-left: .5rem;
     border-left: 1px solid #ccc;
+    /* height: .5rem; */
   }
 
   .right-list:first-child {
@@ -352,8 +353,8 @@ color: #08c;
   }
 
   .terms-details {
-    margin-left: 0;
-    padding-left: 0;
+    /* margin-left: 0;
+    padding-left: 0; */
     display: inline-block;
   }
 
