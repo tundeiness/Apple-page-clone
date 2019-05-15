@@ -83,7 +83,7 @@ body {
   to(#808080));
   height: 36px;
   position: relative;
-  top: 5.2rem;
+  top: 8.2rem;
   left: -2%;
   margin: 0 auto;
   z-index: 900;
@@ -188,11 +188,17 @@ background: none;
 
 .section-hero {
   height: 99.4vh;
-  position: relative;
-  background: #5e5e5e url(/img/hero_2x.jpg) 50% 100% no-repeat;
-  background-size: 1300px 1315px;
+  /* position: relative; */
+  /* background: #5e5e5e url(/img/hero_2x.jpg) 50% 100% no-repeat; */
+  /* background-size: 1300px 1315px; */
+  background: #5e5e5e url(/img/hero_2x.jpg);
+  background-size: cover;
+  background-position: bottom;
+  margin-top: -13rem;
+  margin: 0 auto;
 
 }
+
 
 .section-header {
   margin-top: -8rem;
