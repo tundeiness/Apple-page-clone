@@ -162,19 +162,18 @@ color: white;
   border-radius: 12px;
   box-sizing: border-box;
   background-color: grey rgba(255,255,255,.1);
-  -webkit-transition: color, text-shadow 0.3s, 0.3s;
-  transition: color, text-shadow 0.3s, 0.3s;
+  /* -webkit-transition: color, text-shadow 0.3s, 0.3s;
+  transition: color, text-shadow 0.3s, 0.3s; */
 }
 
 .navigation-search:focus {
-  outline: 0;
+  outline: none;
 }
 
 
 
 .navigation-search:hover {
 background: none;
-
 }
 
 .search-icon {
