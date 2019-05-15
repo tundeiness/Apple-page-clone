@@ -166,6 +166,10 @@ color: white;
   transition: color, text-shadow 0.3s, 0.3s;
 }
 
+.navigation-search:focus {
+  outline: 0;
+}
+
 
 
 .navigation-search:hover {
@@ -179,6 +183,7 @@ background: none;
   left: 2rem;
   color: white;
   z-index: 9000;
+
 }
 
 
