@@ -83,7 +83,7 @@ body {
   to(#808080));
   height: 36px;
   position: relative;
-  top: 8.2rem;
+  top: 4.6rem;
   left: -2%;
   margin: 0 auto;
   z-index: 900;
@@ -154,6 +154,7 @@ color: white;
 
 
 .navigation-search {
+   background: none;
   position: relative;
   top: -.8rem;
   left: 1.5rem;
@@ -168,13 +169,9 @@ color: white;
 
 .navigation-search:focus {
   outline: none;
+  background-color: white;
 }
 
-
-
-.navigation-search:hover {
-background: none;
-}
 
 .search-icon {
   position: absolute;
@@ -185,17 +182,20 @@ background: none;
 
 }
 
+.navigation-search:focus + .search-icon {
+  color: grey;
+}
 
 
 
 /* styling the section-hero */
 
 .section-hero {
-  height: 99.4vh;
+  height: 90.4vh;
   /* position: relative; */
   /* background: #5e5e5e url(/img/hero_2x.jpg) 50% 100% no-repeat; */
   /* background-size: 1300px 1315px; */
-  background: #5e5e5e url(img/hero_2x.jpg);
+  background-image: url("/img/hero_2x.jpg");
   background-size: cover;
   background-position: bottom;
   margin-top: -13rem;
