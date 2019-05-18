@@ -1,5 +1,10 @@
+/* font-family: 'Open Sans Condensed', sans-serif; */
+
+
+
+
 body {
-  font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  font: 12px/18px "Lucida Grande","Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 
 }
 
@@ -192,9 +197,6 @@ color: white;
 
 .section-hero {
   height: 90.4vh;
-  /* position: relative; */
-  /* background: #5e5e5e url(/img/hero_2x.jpg) 50% 100% no-repeat; */
-  /* background-size: 1300px 1315px; */
   background-image: url('../img/hero_2x.jpg');
   background-size: cover;
   background-position: bottom;
@@ -214,8 +216,31 @@ color: white;
   z-index: 0;
 }
 
+.section-headline {
 
-.img-two {
+}
+
+.section-header-link {
+  /* font-family: "Lucida Grande","Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; */
+ font-family: 'Open Sans Condensed', sans-serif;
+ /* font-weight: 100; */
+ font-size: 55px;
+ font-variant: normal;
+ line-height: 96px;
+ /* word-spacing: .1rem; */
+ letter-spacing: 6px;
+ text-decoration: none;
+ cursor: pointer;
+}
+
+.section-header-link:link,
+.section-header-link:visited {
+  color: #fff;
+}
+
+
+
+/* .img-two {
   display: inline-block;
   width: 100%;
 }
@@ -224,7 +249,7 @@ color: white;
 
 .img-three {
   display: inline-block;
-}
+} */
 
 
 .section-sub-headline {
@@ -233,6 +258,7 @@ color: white;
    left: 13.75%;
    margin-top: -.9rem;
    z-index: 100;
+   color: #fff;
 }
 
 .section-cta {
@@ -240,6 +266,21 @@ color: white;
   margin-top: 21rem;
 
 }
+
+.cta-link {
+ color: #fff;
+ text-decoration: none;
+}
+
+.cta-link:link,
+.cta-link:visited {
+  color: #fff;
+}
+
+.cta-link:hover {
+  color: #fff;
+  text-decoration: underline;
+ }
 
 
 
