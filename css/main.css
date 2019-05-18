@@ -217,20 +217,22 @@ color: white;
 }
 
 .section-headline {
-
+ border: 1px solid red;
 }
 
 .section-header-link {
-  /* font-family: "Lucida Grande","Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; */
- font-family: 'Open Sans Condensed', sans-serif;
- /* font-weight: 100; */
- font-size: 55px;
+  /* font-family: "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; */
+ /* font-family: 'Open Sans Condensed', sans-serif; */
+ font-family: 'Roboto', sans-serif;
+ font-weight: 100;
+ font-size: 70px;
  font-variant: normal;
- line-height: 96px;
+ line-height: 106px;
  /* word-spacing: .1rem; */
- letter-spacing: 6px;
+ letter-spacing: 1px;
  text-decoration: none;
  cursor: pointer;
+ border: 1px solid black;
 }
 
 .section-header-link:link,
@@ -276,6 +278,8 @@ color: white;
 .cta-link:visited {
   color: #fff;
 }
+
+/* Get it now →  */
 
 .cta-link:hover {
   color: #fff;
