@@ -21,5 +21,5 @@ Open your git bash and cd to the location you'd like to put your files the run t
 
 
 Here is the link to the live version of this project
-[here](https://rawcdn.githack.com/tundeiness/Apple-page-clone/527e8cb3e6b7ee0b0fc622b091394ad361cfb350/index.html)
+[here](https://rawcdn.githack.com/tundeiness/Apple-page-clone/1d37a270c5447353334f12b25b71f247b8e6dcb2/index.html)
 
