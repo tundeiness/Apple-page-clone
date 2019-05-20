@@ -185,7 +185,7 @@ color: white;
 /* styling the section-hero */
 
 .section-hero {
-  height: 90.4vh;
+  height: 93vh;
   background-image: url('../img/hero_2x.jpg');
   background-size: cover;
   background-position: bottom;
@@ -274,6 +274,8 @@ color: white;
 
 .text-line-cta {
   display: inline;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
 }
 
 .play-icon {
@@ -414,13 +416,17 @@ color: #08c;
     display: inline;
   }
 
+  .copyright {
+    margin-left: 1.5rem;
+  }
+
   .terms-details {
     display: inline-block;
   }
 
   .terms-details:last-child {
     border-left: 1px solid #ccc;
-    padding-left: .4rem;
+    padding-left: .1rem;
   }
 
   .terms-details:first-child {
